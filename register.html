@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./font-6/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="top-navbar">
+        <p>WELCOME TO OUR SHOP</p>
+        <div class="icons">
+            <a href="login.html"><img src="./images/register.png" alt=""  width="18px">Login</a>
+            <a href="register.html"><img src="./images/register.png" alt=""  width="18px">Register</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand" id="logo"><span id="span1">E</span>Lectronic <span>Shop</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collaspe" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                <span><img src="./images/menu.png" width="30px" alt=""></span>
+            </button>
+            <div class="collaspe navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" aria-current="page" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">product</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67, 0, 86);">
+                            <li><a href="#" class="dropdown-item">Smart Phone</a></li>
+                            <li><a href="#" class="dropdown-item">Mobile Phone</a></li>
+                            <li><a href="#" class="dropdown-item">Cameras</a></li>
+                            <li><a href="#" class="dropdown-item">Fridge</a></li>
+                            <li><a href="#" class="dropdown-item">Ac</a></li>
+                            <li><a href="#" class="dropdown-item">Smart Watch</a></li>
+                            <li><a href="#" class="dropdown-item">Headphones</a></li>
+                            <li><a href="#" class="dropdown-item">Laptops</a></li>
+                            <li><a href="#" class="dropdown-item">Pc Mointors</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" >About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" >Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ml-auto" id="search">
+                    <input type="search" placeholder="Search" aria-label="search" class="form-control">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5" id="login">
+        <div class="row">
+            <div class="col-md-5 py-3 py-md-0" id="slide1">
+                <h3 class="text-center">Register</h3>
+            </div>
+            <div class="col-md-7 py-3 py-md-0" id="slide2">
+                <h1 class="text-center">Create Account</h1>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="input2 text-center">
+                    <input type="text" placeholder="Name"> 
+                    <input type="text" placeholder="User Name"> 
+                    <input type="number" placeholder="Phone Number"> 
+                    <input type="email" placeholder="Email"> 
+                    <input type="password" placeholder="Password">
+                </div>
+                <p class="text-center" id="btnlogin"><a href="#">SIGN UP</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5" id="newsletter">
+        <h3 class="text-center">Subscribe To The Electronic Shop For Latest Upload</h3>
+        <div class="input text-center">
+            <input type="text" placeholder="Enter Your Email">
+            <button id="subscribe">Subscribe</button>
+        </div> 
+    </div>
+
+    <footer id="footer">
+        <div class="footer-top pt-5">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Electonic Shops</h3>
+                        <p>
+                            Canada <br>
+                            South-Africa <br>
+                            Turkey <br>
+                        </p>
+                        <strong>Phone</strong>000000000000000 <br>
+                        <strong>Email</strong>electronicshop@.com <br>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i><a href="#">Home</a></i></li>
+                            <li><i><a href="#">About us</a></i></li>
+                            <li><i><a href="#">Sevices</a></i></li>
+                            <li><i><a href="#">Terms of Services</a></i></li>
+                            <li><i><a href="#">Privacy policy</a></i></li>
+                        </ul>
+                    </div>
+                   
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our services</h4>
+                        <ul>
+                            <li><a href="#">Ps5</a></li>
+                            <li><a href="#">Computer</a></li>
+                            <li><a href="#">Gaming laptop</a></li>
+                            <li><a href="#">Mobile phone</a></li>
+                            <li><a href="#">Gaming Gadget</a></li>
+                            <li><a href="#">ps5</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container py-4" id="cont">
+            <div class="copyright">
+                &copy; copyright <strong><span>Electronic Shop</span></strong>.All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by <a href="#">Meoplus</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
